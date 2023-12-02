@@ -28,4 +28,4 @@ print(c.index(8))  # mostra em qual posição está o nº, pega a primeira ocorr
 
 pessoa = ('Michele', 29, 'F')
 print(pessoa)
-del(pessoa)  # apaga a tupla inteira, n eh possível apagar apenas 1 item
+del pessoa  # apaga a tupla inteira, n eh possível apagar apenas 1 item
