@@ -1,4 +1,3 @@
-
 # Curso em Vídeo | Python Mundo 1, 2 e 3    
 
 Repositório para armazenar todo o aprendizado obtido nos cursos de Python do [Curso em Vídeo](https://www.dio.me). Ao total são 3 mundos
