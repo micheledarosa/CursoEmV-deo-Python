@@ -31,7 +31,7 @@ print('-' * 30)
 for i, aluno in enumerate(lista_completa):
     nome = aluno[0]
     media_nota = media[i]
-    print(f'Média do aluno {nome}: {media_nota:.2f}')
+    print(f'Média do aluno {nome}: {media_nota:.1f}')
 print('-' * 30)
 
 while True:
@@ -45,7 +45,7 @@ while True:
     for aluno in lista_completa:
         if aluno[0].upper() == nome_consulta:
             encontrado = True
-            print(f'Notas do aluno {nome_consulta}: {aluno[1]:.2f} e {aluno[2]:.2f}')
+            print(f'Notas do aluno {nome_consulta}: {aluno[1]:.1f} e {aluno[2]:.1f}')
             break
     if not encontrado:
         print(f'Aluno {nome_consulta} não encontrado. Tente novamente.')
