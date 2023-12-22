@@ -21,6 +21,7 @@ com mais de 100 exercícios.
 - *import datetime*
 - *import random*
 - *import operator*
+- *import prettytable*
 
 ## 💻 Complementos
 - [Mimo.org](https://mimo.org/glossary/python/alias) - Com exerícios rápidos e divertidos, que ajudam na fixação da sintaxe.
