@@ -1,3 +1,7 @@
+# Aprimore o desafio 93 para que ele funcione com vários jogadores,
+# incluindo um sistema de visualização de detalhes do aproveitamento
+# de cada jogador.
+
 from prettytable import PrettyTable
 from time import sleep
 from emoji import emojize
@@ -6,22 +10,17 @@ jogador = dict()
 cadastro_jogadores = list()
 
 
-def mostrar_emoji(emote):
-    emoji = emojize(emote)
-    return emoji
-
-
 def finalizar_programa():
     print('...')
     sleep(1)
     print('Finalizando o programa...', end='')
     sleep(1)
-    print(mostrar_emoji("✔️"))
+    print(emojize("✔️"))
 
 
 while True:
     jogador.clear()
-    jogador['nome'] = str(input('Nome do jogador: '))
+    jogador['nome'] = str(input('Nome do jogador: ')).strip()
     partidas = int(input('Partidas: '))
     gols = list()
     for i in range(1, partidas + 1):
@@ -51,7 +50,7 @@ if dados == 'S':
         if 1 <= cod <= len(cadastro_jogadores):
             jogador_escolhido = cadastro_jogadores[cod - 1]
             print('\033[34m-\033[m' * 30)
-            print(f'{mostrar_emoji("⚽")} DETALHES DO JOGADOR {cod} {mostrar_emoji("⚽")}')
+            print(f'{emojize("⚽")} DETALHES DO JOGADOR {cod} {emojize("⚽")}')
             print(f'  -Nome: {jogador_escolhido["nome"]}')
             print(f'  -Gols por partida: {jogador_escolhido["gols"]}')
             print(f'  -Total de gols: {jogador_escolhido["total"]}')
