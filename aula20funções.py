@@ -6,11 +6,13 @@ def somar(a, b):
 
 # Programa principal
 somar(2, 1)
+print()
 somar(b=4, a=5)
+print()
 # -------------------------------------------------------
 
 
-def contador(*num):  # empacotar = pega todos os parâmetros e "empacota"
+def contador(*num):  # desempacotamento = pega todos os parâmetros passados
     for valor in num:
         print(f'{valor}', end=' ')
     print('FIM!')
@@ -25,6 +27,8 @@ def mostrar_tamanho(*num):
 contador(2, 1, 7)
 contador(8, 0)
 contador(4, 4, 7, 6, 2)
+mostrar_tamanho(3, 2, 1)
+print()
 # --------------------------------------------------------
 
 
@@ -38,6 +42,7 @@ def dobrar(lista):
 numeros = [6, 3, 9, 1, 0, 2]
 dobrar(numeros)
 print(numeros)
+print()
 # --------------------------------------------------------
 
 
