@@ -14,14 +14,14 @@ com mais de 100 exercícios.
 | Mundo 3 | [🐍](https://www.youtube.com/watch?v=0LB3FSfjvao&list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH) |
 
 ## 🗃️ Importações
-- *import math*
-- *import pygame*
-- *import emoji*
-- *import time*
-- *import datetime*
-- *import random*
-- *import operator*
-- *import prettytable*
+- *math*
+- *pygame*
+- *emoji*
+- *time*
+- *datetime*
+- *random*
+- *operator*
+- *prettytable*
 
 ## 💻 Complementos
 - [Mimo.org](https://mimo.org/glossary/python/alias) - Com exerícios rápidos e divertidos, que ajudam na fixação da sintaxe.
